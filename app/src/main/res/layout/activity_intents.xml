@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".IntentsActivity">
+    tools:context=".intentsactivity">
 
     <Button
         android:id="@+id/mBtnSms"
@@ -89,5 +89,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.793" />
+
+    <Button
+        android:id="@+id/mbtnWebpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="webpage"
+        app:layout_constraintEnd_toStartOf="@+id/mBtnCall"
+        app:layout_constraintTop_toBottomOf="@+id/mBtnCall" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
